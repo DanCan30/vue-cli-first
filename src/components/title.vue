@@ -12,12 +12,6 @@
 <script>
 export default {
     name: "MainTitle",
-
-    data: function() {
-        return {
-            imgVisible: false,
-        }
-    }
 }
 
 
