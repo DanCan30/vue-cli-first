@@ -1,17 +1,20 @@
 <template>
   <div id="app">
     <Title />
+    <Hero />
   </div>
 </template>
 
 <script>
-import Title from './components/title.vue'
+import Title from './components/title.vue';
+import Hero from './components/hero.vue';
 
 export default {
   name: 'App',
   components: {
     Title,
-  }
+    Hero,
+}
 }
 </script>
 
@@ -24,4 +27,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
 </style>
